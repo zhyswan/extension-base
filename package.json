@@ -1,0 +1,23 @@
+{
+  "name": "linker-sight",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.32",
+    "@types/webextension-polyfill": "^0.12.4",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.6",
+    "vite-plugin-web-extension": "^4.5.0",
+    "vue-tsc": "^3.1.6",
+    "webextension-polyfill": "^0.12.0"
+  }
+}
